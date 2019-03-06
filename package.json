@@ -18,6 +18,8 @@
   "homepage": "https://github.com/MaksimVovk/transliteration-sorting#readme",
   "dependencies": {
     "express": "^4.16.4",
-    "nodemon": "^1.18.10"
+    "nodemon": "^1.18.10",
+    "tr-ru-en": "0.0.3",
+    "translit": "^0.1.0"
   }
 }

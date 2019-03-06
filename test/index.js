@@ -1,9 +1,17 @@
+const translit = require('translit')
 const express = require('express')
-const app = express()
+
 const { transliterationSorting } = require('../index')
+const list = require('./list')
+
+const app = express()
 
 app.get('/', function (req, res) {
-  res.send('Hello World!')
+  list.forEach(it => {
+    const r = translit("Козырёв")
+    console.log(r)
+  })
+  res.send(list)
   transliterationSorting()
 })
 
