@@ -1,0 +1,23 @@
+{
+  "name": "transliteration-sorting",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "showcase": "nodemon test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaksimVovk/transliteration-sorting.git"
+  },
+  "author": "m.vovk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MaksimVovk/transliteration-sorting/issues"
+  },
+  "homepage": "https://github.com/MaksimVovk/transliteration-sorting#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "nodemon": "^1.18.10"
+  }
+}
