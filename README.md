@@ -20,7 +20,7 @@ const users = [
   { id: 4, name: 'Андрей' },
 ]
 
-const result = transliterationSorting(actual.ru_en, 'name', 'ru_en')
+const result = transliterationSorting(users, 'name', 'ru_en')
 
 /*
   result = [
