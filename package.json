@@ -1,0 +1,26 @@
+{
+  "name": "transliteration-sorting",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava tests/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaksimVovk/transliteration-sorting.git"
+  },
+  "author": "m.vovk",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MaksimVovk/transliteration-sorting/issues"
+  },
+  "homepage": "https://github.com/MaksimVovk/transliteration-sorting#readme",
+  "dependencies": {
+    "translit": "^0.1.0"
+  },
+  "devDependencies": {
+    "ava": "^1.3.1",
+    "ava-spec": "^1.1.1"
+  }
+}
