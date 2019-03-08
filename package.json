@@ -11,16 +11,12 @@
     "url": "git+https://github.com/MaksimVovk/transliteration-sorting.git"
   },
   "author": "m.vovk",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/MaksimVovk/transliteration-sorting/issues"
   },
   "homepage": "https://github.com/MaksimVovk/transliteration-sorting#readme",
   "dependencies": {
-    "cyrillic-to-translit-js": "^2.1.0",
-    "express": "^4.16.4",
-    "nodemon": "^1.18.10",
-    "tr-ru-en": "0.0.3",
     "translit": "^0.1.0"
   },
   "devDependencies": {
