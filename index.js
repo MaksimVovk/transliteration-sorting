@@ -9,13 +9,7 @@ function transliterationSorting (list, field, languages = 'en_ru') {
 }
 
 function getDictionary (langs) {
-  switch (langs) {
-    case 'en_ru': return dictionary.en_ru
-      break
-    case 'ru_en': return dictionary.ru_en
-      break
-    default: return dictionary.en_ru
-  }
+  return dictionary[langs] ? dictionary[langs] : dictionary.en_ru
 }
 
 function compare (a, b) {
