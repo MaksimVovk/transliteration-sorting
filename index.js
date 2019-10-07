@@ -4,7 +4,7 @@ const dictionary = require('./dictionary')
 function transliterationSorting (list, field, languages = 'en_ru') {
   const vocabruary = getDictionary(languages)
   const tr = translit(vocabruary)
-
+  console.log(list.map(it => ({ ...it, translit: tr(it[field]) })).sort(compare))
   return list.map(it => ({ ...it, translit: tr(it[field]) })).sort(compare)
 }
 
@@ -13,9 +13,9 @@ function getDictionary (langs) {
 }
 
 function compare (a, b) {
-  if (a.translit < b.translit)
+  if (a.translit.toLowerCase() < b.translit.toLowerCase())
     return -1
-  if (a.translit > b.translit)
+  if (a.translit.toLowerCase() > b.translit.toLowerCase())
     return 1
   return 0
 }
